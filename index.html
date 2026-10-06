@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Task Manager</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Student Task Manager</h1>
+
+        <p class="subtitle">
+            Organize your study tasks easily.
+        </p>
+
+        <!-- TASK FORM -->
+        <div class="task-form">
+
+            <label for="task-title">Task Title</label>
+
+            <input
+                type="text"
+                id="task-title"
+                placeholder="Enter task title"
+            >
+
+            <label for="task-description">Description</label>
+
+            <textarea
+                id="task-description"
+                placeholder="Enter task description"
+            ></textarea>
+
+            <button id="add-task-btn">
+                Add Task
+            </button>
+
+        </div>
+
+        <!-- TASK SEARCH -->
+        <div class="search-section">
+
+            <input
+                type="text"
+                id="search-input"
+                placeholder="Search tasks..."
+            >
+
+        </div>
+
+        <h2>My Tasks</h2>
+
+        <div id="task-list">
+            <!-- Tasks will appear here -->
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
