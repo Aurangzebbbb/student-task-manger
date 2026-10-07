@@ -1,4 +1,4 @@
-# Student Management System
+# Student Management Web
 
 A simple web-based **Student Management System** developed using HTML, CSS, and JavaScript.
 
